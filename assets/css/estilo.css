@@ -11,8 +11,8 @@ body {
 }
 
 hr {
-    height: 5px;
-    background-color: aliceblue;
+    height: 10px;
+    background-color: rgb(180, 197, 212);
 }
 
 .navbar {
