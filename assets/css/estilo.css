@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    background-color: black;
+}
+
+hr {
+    height: 5px;
+    background-color: aliceblue;
+}
+
+.navbar {
+    background-color: 0;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    opacity: 80%;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 20px;
+
+}
+
+main {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-inline-start: auto;
+}
+
+#identidad {
+    text-align: center;
+    margin-right: 300px;
+}
+
+.fa-plane,
+.fa-mountain,
+.fa-route {
+    font-size: 2rem;
+}
+
+#cajita {
+    margin-bottom: 20px;
+    background-color: #2596be;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 280px;
+}
+
+.articulo1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    margin-left: 90px;
+}
+
+
+.articulo2 {
+    width: 90%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 90px;
+
+}
+
+.form-label {
+    text-align: left;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+.articulo2 .btn-info {
+    float: left;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: #2596be;
+    padding: 20px; /* Ajustado a 20px para más espacio visible */
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between; /* Dejar las redes sociales al lado derecho de la box */
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.social-icons a:hover {
+    color: #d8faff;
+}
+
+@media (max-width: 768px) {
+
+    main {
+        height: auto;
+        width: auto;
+        padding: 50px 0;
+        float: none;
+        text-align: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-inline-start: auto;
+    }
+
+    .articulo1, .articulo2 {
+        height: auto;
+        width: auto;
+        padding: 50px 0;
+        float: none;
+        text-align: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-inline-start: auto;
+    }
+}
